@@ -1,0 +1,51 @@
+#Lbrowndiv {
+	background-color: rgb(255, 213, 162);
+	width: 100%;
+	height: 200px;
+	text-align: center;
+}
+
+#Logo {
+	padding: 40px;
+}
+
+#list {
+	list-style-type: disc;
+}
+
+#Button1 {
+	width: 150px;
+	background-color: red;
+	height: 50px;
+}
+
+#stopka {
+	text-align: right;
+	bottom: 00px;
+	background-color: rgb(255, 213, 162);
+	width: 100%;
+	position: absolute;
+}
+
+.Menu {
+	width: 25%;
+	background-color: rgb(191, 112, 17);
+	float: left;
+	color: white;
+	text-align: center;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+
+a:hover {
+  color: white;
+}
+
+a:active {
+  color: white;
+}

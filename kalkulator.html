@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<div id="Lbrowndiv"><img id="Logo" src="logo.png"></div>
+	<div class="Menu"><a href="index.html">O NAS</a></div>
+	<div class="Menu"><a href="kontakt.html">KONTAKT</a></div>
+	<div class="Menu"><a href="kalkulator.html">KALKULATOR</a></div>
+	<div class="Menu"><a href="Pstrony.html">POLECANE STRONY</a></div>
+	<h1>Malowanie pokoju: 8 zł za m2</h1>
+	<p>Wymiary pokoju w metrach:</p>
+	<input type="number" name="wymiar1" id="wymiar1"><br>
+	<input type="number" name="wymiar2" id="wymiar2"><br>
+	<script type="text/javascript">
+		function calculate() {
+			let a,b;
+			a = getElementById('wymiar1');
+			b = getElementById('wymiar2');
+			document.getElementById('koszt').innerHTML = a * b;
+		}
+	</script>
+	<button onclick="calculate()" id="Button1">Oblicz</button>
+	<p id="koszt"></p>
+	<footer id="stopka">Autor strony: Bruno Sowa</footer>
+</body>
+</html>
